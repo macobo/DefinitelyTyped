@@ -133,6 +133,10 @@ interface ToastrOptions {
 	* Set if toastr should parse containing html 
 	**/
 	allowHtml?: boolean;
+	/**
+	* Set if toastr should escape html
+	*/
+	escapeHtml?: boolean;
 }
 
 interface ToastrDisplayMethod {
